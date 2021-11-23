@@ -16,4 +16,4 @@ def randomvalues(n):
     return jsonify(result)
     
 if __name__=='__main__':
-    application.run(port=8080,host="0.0.0.0",debug=True)
+    application.run(debug=True)
